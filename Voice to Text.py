@@ -23,9 +23,10 @@ iface = gr.Interface(
         gr.Textbox(label="Recognized Text"),
         gr.File(label="Download Transcript (.txt)")
     ],
-    title="🎤 Voice to Text (Upload File)",
+    title="Voice to Text (Upload File)",
     description="Upload an audio file to transcribe speech into text."
 )
 
 iface.launch()
+
 
